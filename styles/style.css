@@ -54,3 +54,46 @@ nav ul li{
 .smoky-black{
     color: #0E0E0E;
 }
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 160px 0 60px; */
+    /* padding: 0 100px 0 28px ; */
+    margin: 13px 106px 53px 40px;
+    padding: 53px 67px;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+
+}
+
+.banner-content{
+    max-width: 410px;
+}
+
+.banner-head{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner-vision{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.banner-pic{
+    width: 400px;
+}
+
+.banner-btn{
+    background-color: #006A50;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 11px 22px;
+}
+
