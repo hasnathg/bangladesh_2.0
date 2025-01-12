@@ -296,3 +296,284 @@ nav ul li{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
+/* news styles */
+
+.recent-news {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.recent-news h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.recent-news p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* News card styling */
+/* General container styling */
+.recent-news {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.recent-news h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.recent-news p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* News card styling */
+/* General container styling */
+.recent-news {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.recent-news h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.recent-news p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* News card styling */
+.news-card {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.news-card.reverse {
+    flex-direction: row-reverse; /* Reverse layout for alternating cards */
+}
+
+.news-image {
+    flex: 0 0 200px;
+}
+
+.news-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.news-content {
+    flex: 1;
+}
+
+.news-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.news-content .source {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.news-content .source img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.news-content .date-time {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.news-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Read More button styling */
+.read-more {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .news-card,
+    .news-card.reverse {
+        flex-direction: column;
+    }
+
+    .news-card .news-image,
+    .news-card.reverse .news-image {
+        margin-bottom: 15px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* donation */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.donation-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.donation-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.other-amount {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.other-amount input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.done-now-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-section {
+    background-color: #e0f2db;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.newsletter-section h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter-section p {
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscribe-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+    
