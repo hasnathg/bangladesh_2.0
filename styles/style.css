@@ -10,9 +10,9 @@
     /* background-color: #F1F1F3; */
     background-color:#FFFFFF;
   }
-  /* .general-properties{ */
+ 
     
-  }
+  
 
 
 /* styles-top */
@@ -147,13 +147,152 @@ nav ul li{
 .vision-title{
     font-size: 26px;
     font-weight: 700;
-    padding: 0 0 15px 0;
+    padding: 0 0 2px 0;
+    color: #0E0E0E;
+}
+
+.vision-statement{
+    color: #0E0E0E;
+
 }
 
 .vision-containers{
     display: flex;
+    gap: 24px;
+    padding: 21px 16px;
+}
+
+.vision-btn{
+    border-radius: 5px;
+    /* padding: 24px 0 32px 32px; */
+
+}
+
+.vision-dt{
+    font-size: 15px;
+    background-color:#e8f1ff;
+    padding: 21px 21px 16px 21px;
+}
+
+.vision-ge{
+    font-size: 15px;
+    /* background-color:#e6f7ff; */
+    /* background-color: #09A15C; */
+    background-color: #F1F1F3;
+    padding: 21px 21px 16px 21px;
 }
 
 
 
+.vision-mi{
+    font-size: 15px;
+    background-color:#fff0e6;
+    padding: 21px 21px 16px 21px;
+}
 
+.vision-dt .vision-btn{
+    background-color:#5954F5 ;
+    color: white;
+
+}
+
+.vision-ge .vision-btn{
+    background-color: #09A15C;
+    color:white ;
+
+}
+
+.vision-mi .vision-btn{
+    background-color:#FFC239;
+    color:white ;}
+    
+    .quote {
+        position: relative;
+      }
+      
+      .quote img {
+        width: 5%;
+        height: auto;
+      }
+      
+      .statement {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.7); 
+        padding: 40px 20px;
+      }
+      
+      .statement p {
+        position: absolute; 
+        top: 0; 
+        left: 0;
+        width: 100%;
+        height: 50%; 
+        overflow: hidden;
+        padding: 0 0 12px 5px;
+      }
+
+      .statement blockquote{
+        
+            font-size: 18px;
+            color: #555555;
+            margin: 0 auto;
+            max-width: 800px;
+        
+      }
+  
+ 
+  .advisor{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .title{
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  /* Opinion Section */
+.opinion {
+    padding: 40px 20px;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.opinion h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.opinion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.opinion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d9f6e3;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.opinion-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.opinion-item select {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
