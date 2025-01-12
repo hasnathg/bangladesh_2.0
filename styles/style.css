@@ -208,6 +208,7 @@ nav ul li{
     
     .quote {
         position: relative;
+        background-color: #C6E4D6;
       }
       
       .quote img {
@@ -244,21 +245,27 @@ nav ul li{
         
       }
   
- 
+ .designation{
+    background-color: #e0f7fa; ;
+ }
   .advisor{
     font-size: 20px;
     font-weight: 600;
+    background-color: #e0f7fa;
   }
   .title{
     font-size: 12px;
     font-weight: 400;
+    background-color: #e0f7fa;
   }
 
   /* Opinion Section */
 .opinion {
-    padding: 40px 20px;
+    padding: 0px 0 0 50px;
     background-color: #e0f7fa;
-    text-align: center;
+    text-align: left;
+    margin-left: 44px;
+    margin-right: 160px;
 }
 
 .opinion h2 {
@@ -272,14 +279,20 @@ nav ul li{
     gap: 20px;
     max-width: 600px;
     margin: 0 auto;
+    text-align: left;
+    
+}
+.opinion-container p{
+   background-color: #FFFFFF;
+   text-align: left;
 }
 
 .opinion-item {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    align-items: left;
     background: #d9f6e3;
-    padding: 10px 20px;
+    padding: 10px 1px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -287,39 +300,18 @@ nav ul li{
 .opinion-item p {
     margin: 0;
     font-size: 16px;
-    color: #333;
+    color: ##333333;
+    text-align: left;
 }
 
 .opinion-item select {
-    padding: 5px 10px;
+    padding: 5px 2px;
     font-size: 14px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-radius: 4px;
+    text-align: left;
 }
 
-/* news styles */
-
-.recent-news {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    color: #333;
-}
-
-.recent-news h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.recent-news p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-    color: #666;
-}
-
-/* News card styling */
 /* General container styling */
 .recent-news {
     max-width: 1200px;
@@ -342,29 +334,7 @@ nav ul li{
 }
 
 /* News card styling */
-/* General container styling */
-.recent-news {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    color: #333;
-}
-
-.recent-news h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.recent-news p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-    color: #666;
-}
-
-/* News card styling */
-.news-card {
+.news-right {
     display: flex;
     align-items: flex-start;
     background-color: #fff;
@@ -376,7 +346,7 @@ nav ul li{
     gap: 20px;
 }
 
-.news-card.reverse {
+.news-right.reverse {
     flex-direction: row-reverse; /* Reverse layout for alternating cards */
 }
 
@@ -447,18 +417,19 @@ nav ul li{
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .news-card,
-    .news-card.reverse {
+    .news-right,
+    .news-right.reverse {
         flex-direction: column;
     }
 
-    .news-card .news-image,
-    .news-card.reverse .news-image {
+    .news-right .news-image,
+    .news-right.reverse .news-image {
         margin-bottom: 15px;
         width: 100%;
         height: auto;
     }
 }
+
 
 
 /* donation */
@@ -485,8 +456,9 @@ p {
 }
 
 .donation-button {
-    background-color: #4CAF50;
-    color: white;
+    /* background-color: #4CAF50; */
+    /* color: white; */
+    color: black;
     padding: 15px 30px;
     border: none;
     border-radius: 5px;
@@ -510,10 +482,11 @@ p {
 .done-now-button {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .newsletter-section {
